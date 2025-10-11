@@ -36,7 +36,7 @@ int main() {
     if (numericGrade >= 90) {
         letterGrade = 'A';
     } else if (numericGrade >= 80) {
-        // This condition is true for grades 80.0 through 89.9...
+        // grades 80.0 through 89.9...
         letterGrade = 'B';
     } else if (numericGrade >= 70) {
         letterGrade = 'C';
@@ -50,5 +50,5 @@ int main() {
     cout << "\nYour numerical grade is: " << fixed << setprecision(1) << numericGrade << endl;
     cout << "Your letter grade is: " << letterGrade << endl;
 
-    return 0; // Program executed successfully
+    return 0; // No Errors
 }
